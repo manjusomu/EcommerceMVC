@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "Button";
+}
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device=width" />
+    <title>Product Details</title>
+    <link href="~/Content/MyStylesheet.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div>
+        <ul style="list-style:none">
+            <li>@Html.ActionLink("Lenova", "Products", "Laptops",new {@id=1},null)</li>
+            <li>@Html.ActionLink("samsung", "Products", "Laptops", new {@id=2},null)</li>
+            <li>@Html.ActionLink("Hp", "Products", "Laptops", new { @id = 3}, null)</li>
+            <li>@Html.ActionLink("Dell", "Products", "Laptops", new { @id = 4 }, null)</li>
+        </ul>
+        
+    </div>
+</body>
+
+
+<h2>Discount 20%</h2>
+
+
+
+
+
+
+
+
+
+
+
+
